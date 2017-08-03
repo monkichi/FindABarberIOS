@@ -29,7 +29,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
-    WallPost.registerSubclass()
     
     let configuration = ParseClientConfiguration {
       $0.applicationId = "6f7b68060b9a13173083d6668707d675ef078043"
@@ -37,12 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     Parse.initialize(with: configuration)
     
-    let gameScore = PFObject(className:"GameScore")
-    gameScore["score"] = 1337
-    gameScore["playerName"] = "Sean Plott"
-    gameScore["cheatMode"] = false
-    gameScore.saveInBackground()
-    
+
 
     
     

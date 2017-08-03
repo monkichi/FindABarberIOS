@@ -14,10 +14,6 @@
 		0E5977301AA9F46F00CB22B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E59772E1AA9F46F00CB22B6 /* LaunchScreen.xib */; };
 		0E5977491AA9F4CF00CB22B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5977481AA9F4CF00CB22B6 /* LoginViewController.swift */; };
 		0E59774B1AA9F4DC00CB22B6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59774A1AA9F4DC00CB22B6 /* RegisterViewController.swift */; };
-		0E59774D1AA9F4F500CB22B6 /* WallPicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59774C1AA9F4F500CB22B6 /* WallPicturesViewController.swift */; };
-		0E59774F1AA9F50F00CB22B6 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59774E1AA9F50F00CB22B6 /* UploadImageViewController.swift */; };
-		0E8BD2F61ABCC12F000321DA /* WallPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BD2F51ABCC12F000321DA /* WallPost.swift */; };
-		0E8BD2F81ABCC143000321DA /* WallPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BD2F71ABCC143000321DA /* WallPostTableViewCell.swift */; };
 		0EBE301B1B30AE710001682C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE301A1B30AE710001682C /* AudioToolbox.framework */; };
 		0EBE301D1B30AE780001682C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE301C1B30AE780001682C /* CFNetwork.framework */; };
 		0EBE301F1B30AE7F0001682C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE301E1B30AE7F0001682C /* CoreGraphics.framework */; };
@@ -31,7 +27,8 @@
 		2902FA4C1C7FB69D00883546 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2902FA491C7FB69D00883546 /* Bolts.framework */; };
 		2902FA4D1C7FB69D00883546 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2902FA4A1C7FB69D00883546 /* Parse.framework */; };
 		2902FA4E1C7FB69D00883546 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2902FA4B1C7FB69D00883546 /* ParseUI.framework */; };
-		83F9A5F21F32DFCC00EABFF6 /* barber_clip.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A5F11F32DFCC00EABFF6 /* barber_clip.png */; };
+		83F9A5F41F32E25800EABFF6 /* barber_clip.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A5F31F32E25800EABFF6 /* barber_clip.png */; };
+		83F9A5F61F32FD5D00EABFF6 /* BarberProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9A5F51F32FD5D00EABFF6 /* BarberProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +41,6 @@
 		0E59772F1AA9F46F00CB22B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0E5977481AA9F4CF00CB22B6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0E59774A1AA9F4DC00CB22B6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		0E59774C1AA9F4F500CB22B6 /* WallPicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPicturesViewController.swift; sourceTree = "<group>"; };
-		0E59774E1AA9F50F00CB22B6 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
-		0E8BD2F51ABCC12F000321DA /* WallPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPost.swift; sourceTree = "<group>"; };
-		0E8BD2F71ABCC143000321DA /* WallPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPostTableViewCell.swift; sourceTree = "<group>"; };
 		0EBE301A1B30AE710001682C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		0EBE301C1B30AE780001682C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0EBE301E1B30AE7F0001682C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +56,8 @@
 		2902FA4A1C7FB69D00883546 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		2902FA4B1C7FB69D00883546 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		2902FA4F1C7FB8FC00883546 /* ParseTutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseTutorial-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		83F9A5F11F32DFCC00EABFF6 /* barber_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barber_clip.png; path = ../../../Documents/github/FindABarberApp/ParseStarterProject/src/main/res/drawable/barber_clip.png; sourceTree = "<group>"; };
+		83F9A5F31F32E25800EABFF6 /* barber_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barber_clip.png; path = ../../../FindABarberApp/ParseStarterProject/src/main/res/drawable/barber_clip.png; sourceTree = "<group>"; };
+		83F9A5F51F32FD5D00EABFF6 /* BarberProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +87,6 @@
 		0E234A3D1AACA5DA00FDA76B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0E8BD2F71ABCC143000321DA /* WallPostTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -101,7 +94,6 @@
 		0E234A3E1AACA5E900FDA76B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E8BD2F51ABCC12F000321DA /* WallPost.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -161,7 +153,7 @@
 		0E5977231AA9F46F00CB22B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				83F9A5F11F32DFCC00EABFF6 /* barber_clip.png */,
+				83F9A5F31F32E25800EABFF6 /* barber_clip.png */,
 				2902FA4F1C7FB8FC00883546 /* ParseTutorial-Bridging-Header.h */,
 				0E5977291AA9F46F00CB22B6 /* Main.storyboard */,
 				0E59772E1AA9F46F00CB22B6 /* LaunchScreen.xib */,
@@ -175,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				0E234A3F1AACA6B100FDA76B /* UIViewControllerExtension.swift */,
+				83F9A5F51F32FD5D00EABFF6 /* BarberProfileViewController.swift */,
 				0E5977461AA9F49B00CB22B6 /* Login/Register */,
 				0E5977471AA9F4A400CB22B6 /* Wall */,
 			);
@@ -193,8 +186,6 @@
 		0E5977471AA9F4A400CB22B6 /* Wall */ = {
 			isa = PBXGroup;
 			children = (
-				0E59774C1AA9F4F500CB22B6 /* WallPicturesViewController.swift */,
-				0E59774E1AA9F50F00CB22B6 /* UploadImageViewController.swift */,
 			);
 			name = Wall;
 			sourceTree = "<group>";
@@ -232,8 +223,8 @@
 				TargetAttributes = {
 					0E59771F1AA9F46F00CB22B6 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 6K2XWV4368;
 						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -268,10 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F9A5F41F32E25800EABFF6 /* barber_clip.png in Resources */,
 				0E59772B1AA9F46F00CB22B6 /* Main.storyboard in Resources */,
 				0E5977301AA9F46F00CB22B6 /* LaunchScreen.xib in Resources */,
 				0E59772D1AA9F46F00CB22B6 /* Images.xcassets in Resources */,
-				83F9A5F21F32DFCC00EABFF6 /* barber_clip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +275,9 @@
 			files = (
 				0E59774B1AA9F4DC00CB22B6 /* RegisterViewController.swift in Sources */,
 				0E5977491AA9F4CF00CB22B6 /* LoginViewController.swift in Sources */,
+				83F9A5F61F32FD5D00EABFF6 /* BarberProfileViewController.swift in Sources */,
 				0E234A401AACA6B100FDA76B /* UIViewControllerExtension.swift in Sources */,
-				0E59774F1AA9F50F00CB22B6 /* UploadImageViewController.swift in Sources */,
-				0E59774D1AA9F4F500CB22B6 /* WallPicturesViewController.swift in Sources */,
-				0E8BD2F81ABCC143000321DA /* WallPostTableViewCell.swift in Sources */,
 				0E5977261AA9F46F00CB22B6 /* AppDelegate.swift in Sources */,
-				0E8BD2F61ABCC12F000321DA /* WallPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,11 +392,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ParseTutorial/ParseTutorial.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6K2XWV4368;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -418,6 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.ParseTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseTutorial-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -428,11 +418,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ParseTutorial/ParseTutorial.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6K2XWV4368;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -442,6 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.ParseTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseTutorial-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

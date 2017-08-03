@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FFED700CB1C50E6DC586A5F9925004FC78D56652",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FFED700CB1C50E6DC586A5F9925004FC78D56652" : 9223372036854775807,
+    "02A5EA942DDED060A92D367492EBBF434A714D72" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "09CB8188-05CE-4FCB-B95E-2212E7B5A19D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FFED700CB1C50E6DC586A5F9925004FC78D56652" : "FindABarberIOS\/",
+    "02A5EA942DDED060A92D367492EBBF434A714D72" : "FindABarberApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ParseTutorial",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ParseTutorialStarter\/ParseTutorial.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/monkichi\/FindABarberApp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "02A5EA942DDED060A92D367492EBBF434A714D72"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/monkichi\/FindABarberIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FFED700CB1C50E6DC586A5F9925004FC78D56652"
+    }
+  ]
+}
