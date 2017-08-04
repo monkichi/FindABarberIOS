@@ -1,0 +1,6 @@
+framework module Pods_FireBAseFindServicesApp {
+  umbrella header "Pods-FireBAseFindServicesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
