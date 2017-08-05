@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		838727A01F366F17003D8963 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387279F1F366F17003D8963 /* SignUpViewController.swift */; };
+		838727A21F366FD5003D8963 /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838727A11F366FD5003D8963 /* MainLoginViewController.swift */; };
 		83F9A6041F34037700EABFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9A6031F34037700EABFF6 /* AppDelegate.swift */; };
-		83F9A6061F34037700EABFF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9A6051F34037700EABFF6 /* ViewController.swift */; };
 		83F9A6091F34037700EABFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A6071F34037700EABFF6 /* Main.storyboard */; };
 		83F9A60B1F34037700EABFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A60A1F34037700EABFF6 /* Assets.xcassets */; };
-		83F9A60E1F34037700EABFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A60C1F34037700EABFF6 /* LaunchScreen.storyboard */; };
 		83F9A6161F34432700EABFF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A6151F34432700EABFF6 /* GoogleService-Info.plist */; };
 		83F9A6181F3448F300EABFF6 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F9A6171F3448F300EABFF6 /* FirebaseDatabase.framework */; };
 		83F9A6211F344B2D00EABFF6 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F9A61A1F344B2D00EABFF6 /* FirebaseAnalytics.framework */; };
@@ -25,12 +25,12 @@
 
 /* Begin PBXFileReference section */
 		24BD2EF9B9EDD2FCEB56BCB1 /* Pods-FireBAseFindServicesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBAseFindServicesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBAseFindServicesApp/Pods-FireBAseFindServicesApp.release.xcconfig"; sourceTree = "<group>"; };
+		8387279F1F366F17003D8963 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		838727A11F366FD5003D8963 /* MainLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainLoginViewController.swift; path = ../MainLoginViewController.swift; sourceTree = "<group>"; };
 		83F9A6001F34037700EABFF6 /* FireBAseFindServicesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBAseFindServicesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9A6031F34037700EABFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83F9A6051F34037700EABFF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83F9A6081F34037700EABFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83F9A60A1F34037700EABFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83F9A60D1F34037700EABFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F9A60F1F34037700EABFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F9A6151F34432700EABFF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		83F9A6171F3448F300EABFF6 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Firebase/Database/FirebaseDatabase.framework; sourceTree = "<group>"; };
@@ -86,11 +86,11 @@
 		83F9A6021F34037700EABFF6 /* FireBAseFindServicesApp */ = {
 			isa = PBXGroup;
 			children = (
+				838727A11F366FD5003D8963 /* MainLoginViewController.swift */,
 				83F9A6031F34037700EABFF6 /* AppDelegate.swift */,
-				83F9A6051F34037700EABFF6 /* ViewController.swift */,
+				8387279F1F366F17003D8963 /* SignUpViewController.swift */,
 				83F9A6071F34037700EABFF6 /* Main.storyboard */,
 				83F9A60A1F34037700EABFF6 /* Assets.xcassets */,
-				83F9A60C1F34037700EABFF6 /* LaunchScreen.storyboard */,
 				83F9A60F1F34037700EABFF6 /* Info.plist */,
 				83F9A6151F34432700EABFF6 /* GoogleService-Info.plist */,
 				83F9A6191F344A6800EABFF6 /* Firebase.h */,
@@ -185,7 +185,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F9A60E1F34037700EABFF6 /* LaunchScreen.storyboard in Resources */,
 				83F9A60B1F34037700EABFF6 /* Assets.xcassets in Resources */,
 				83F9A6091F34037700EABFF6 /* Main.storyboard in Resources */,
 				83F9A6161F34432700EABFF6 /* GoogleService-Info.plist in Resources */,
@@ -250,7 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F9A6061F34037700EABFF6 /* ViewController.swift in Sources */,
+				838727A01F366F17003D8963 /* SignUpViewController.swift in Sources */,
+				838727A21F366FD5003D8963 /* MainLoginViewController.swift in Sources */,
 				83F9A6041F34037700EABFF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,14 +264,6 @@
 				83F9A6081F34037700EABFF6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		83F9A60C1F34037700EABFF6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83F9A60D1F34037700EABFF6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
