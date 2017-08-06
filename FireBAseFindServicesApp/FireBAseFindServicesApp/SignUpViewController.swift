@@ -7,9 +7,51 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignUpViewController: UIViewController {
-
+    
+    //userInfo for firebase user object
+    var userName: String = " "
+    var userEmailAddress: String = " "
+    var userPassword: String = " "
+    
+    
+    @IBOutlet weak var userNameTextField: UITextField!
+    @IBOutlet weak var userPasswordTextField: UITextField!
+    @IBOutlet weak var userEmailAddressTextField: UITextField!
+    
+    @IBAction func registerButtonTap(_ sender: Any) {
+        
+        print("Button was tapped")
+        
+        userName = userNameTextField.text!
+        userEmailAddress = userEmailAddressTextField.text!
+        userPassword = userPasswordTextField.text!
+        
+        Auth.auth().createUser(withEmail: userEmailAddress, password: userPassword) { (user, error) in
+            // [START_EXCLUDE]
+        
+                if let error = error {
+                    print(error.localizedDescription)
+                }
+                else{
+                    print("\(user!.email!) created")
+                    user?.sendEmailVerification(completion: { (error) in
+                        if let error = error{
+                            print(error.localizedDescription)
+                        }
+                        else{
+                            print("Message sent")
+                        }
+                        })
+                    }
+  
+            }
+            // [END_EXCLUDE]
+        
+    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 

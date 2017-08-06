@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		838727A01F366F17003D8963 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387279F1F366F17003D8963 /* SignUpViewController.swift */; };
 		838727A21F366FD5003D8963 /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838727A11F366FD5003D8963 /* MainLoginViewController.swift */; };
+		838727A41F36D694003D8963 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838727A31F36D694003D8963 /* FirebaseAuth.framework */; };
+		838727A61F36DA10003D8963 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838727A51F36DA10003D8963 /* GTMSessionFetcher.framework */; };
 		83F9A6041F34037700EABFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9A6031F34037700EABFF6 /* AppDelegate.swift */; };
 		83F9A6091F34037700EABFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A6071F34037700EABFF6 /* Main.storyboard */; };
 		83F9A60B1F34037700EABFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A60A1F34037700EABFF6 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		24BD2EF9B9EDD2FCEB56BCB1 /* Pods-FireBAseFindServicesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBAseFindServicesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBAseFindServicesApp/Pods-FireBAseFindServicesApp.release.xcconfig"; sourceTree = "<group>"; };
 		8387279F1F366F17003D8963 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		838727A11F366FD5003D8963 /* MainLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainLoginViewController.swift; path = ../MainLoginViewController.swift; sourceTree = "<group>"; };
+		838727A31F36D694003D8963 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Firebase/Auth/FirebaseAuth.framework; sourceTree = "<group>"; };
+		838727A51F36DA10003D8963 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = Firebase/Auth/GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		83F9A6001F34037700EABFF6 /* FireBAseFindServicesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBAseFindServicesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9A6031F34037700EABFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F9A6081F34037700EABFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,9 +55,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838727A41F36D694003D8963 /* FirebaseAuth.framework in Frameworks */,
 				83F9A6261F344B2D00EABFF6 /* GoogleToolboxForMac.framework in Frameworks */,
 				83F9A6211F344B2D00EABFF6 /* FirebaseAnalytics.framework in Frameworks */,
 				83F9A6271F344B2D00EABFF6 /* nanopb.framework in Frameworks */,
+				838727A61F36DA10003D8963 /* GTMSessionFetcher.framework in Frameworks */,
 				83F9A6231F344B2D00EABFF6 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				83F9A6241F344B2D00EABFF6 /* FirebaseInstanceID.framework in Frameworks */,
 				83F9A6251F344B2D00EABFF6 /* FirebaseNanoPB.framework in Frameworks */,
@@ -102,6 +108,8 @@
 		B370F863133368918AD7B99B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				838727A51F36DA10003D8963 /* GTMSessionFetcher.framework */,
+				838727A31F36D694003D8963 /* FirebaseAuth.framework */,
 				83F9A61A1F344B2D00EABFF6 /* FirebaseAnalytics.framework */,
 				83F9A61B1F344B2D00EABFF6 /* FirebaseCore.framework */,
 				83F9A61C1F344B2D00EABFF6 /* FirebaseCoreDiagnostics.framework */,
@@ -376,6 +384,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Firebase/Database",
 					"$(PROJECT_DIR)/Firebase/Analytics",
+					"$(PROJECT_DIR)/Firebase/Auth",
 				);
 				INFOPLIST_FILE = FireBAseFindServicesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -394,6 +403,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Firebase/Database",
 					"$(PROJECT_DIR)/Firebase/Analytics",
+					"$(PROJECT_DIR)/Firebase/Auth",
 				);
 				INFOPLIST_FILE = FireBAseFindServicesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

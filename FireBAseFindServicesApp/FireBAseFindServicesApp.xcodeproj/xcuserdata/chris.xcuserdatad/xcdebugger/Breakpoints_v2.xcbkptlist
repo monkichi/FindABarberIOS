@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireBAseFindServicesApp/SignUpViewController.swift"
+            timestampString = "523689319.28877"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "SignUpViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBAseFindServicesApp.SignUpViewController.userPasswordTextField.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "FireBAseFindServicesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Documents/github/FindABarberIOS/FireBAseFindServicesApp/FireBAseFindServicesApp/SignUpViewController.swift"
+                  timestampString = "523689319.320784"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBAseFindServicesApp.SignUpViewController.userPasswordTextField.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "FireBAseFindServicesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Documents/github/FindABarberIOS/FireBAseFindServicesApp/FireBAseFindServicesApp/SignUpViewController.swift"
+                  timestampString = "523689319.323478"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBAseFindServicesApp.SignUpViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FireBAseFindServicesApp.SignUpViewController"
+                  moduleName = "FireBAseFindServicesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Documents/github/FindABarberIOS/FireBAseFindServicesApp/FireBAseFindServicesApp/SignUpViewController.swift"
+                  timestampString = "523689319.326144"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "325">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBAseFindServicesApp.SignUpViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FireBAseFindServicesApp.SignUpViewController&gt;"
+                  moduleName = "FireBAseFindServicesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Documents/github/FindABarberIOS/FireBAseFindServicesApp/FireBAseFindServicesApp/SignUpViewController.swift"
+                  timestampString = "523689319.32909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "249">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
