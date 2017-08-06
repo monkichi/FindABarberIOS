@@ -28,6 +28,10 @@
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signInAction:" destination="OU1-K7-mhs" eventType="touchUpInside" id="hM5-8V-sE7"/>
+                                    <segue destination="o58-px-6qk" kind="show" identifier="login" id="gJl-ZI-UQf"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oPZ-1w-ezi">
                                 <rect key="frame" x="67" y="260" width="240" height="30"/>
@@ -56,6 +60,8 @@
                     <navigationItem key="navigationItem" id="IqA-lE-nn4"/>
                     <connections>
                         <outlet property="signUpLabel" destination="Sc6-S6-3BA" id="iCD-sv-zdU"/>
+                        <outlet property="userEmailTextField" destination="rQj-Eb-7DG" id="zQC-2P-HjB"/>
+                        <outlet property="userPasswordTextField" destination="oPZ-1w-ezi" id="aKo-oi-GLf"/>
                         <segue destination="HIn-h6-JAA" kind="show" identifier="signUp" id="js6-rV-Pex"/>
                     </connections>
                 </viewController>
@@ -114,6 +120,7 @@
                                 </state>
                                 <connections>
                                     <action selector="registerButtonTap:" destination="HIn-h6-JAA" eventType="touchUpInside" id="3Rp-AU-NEy"/>
+                                    <segue destination="o58-px-6qk" kind="show" identifier="register" id="i4V-LR-RTV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -129,10 +136,10 @@
             </objects>
             <point key="canvasLocation" x="1544.5" y="90.5"/>
         </scene>
-        <!--View Controller-->
+        <!--UserViewController-->
         <scene sceneID="GGw-S2-bRs">
             <objects>
-                <viewController id="o58-px-6qk" sceneMemberID="viewController">
+                <viewController title="UserViewController" id="o58-px-6qk" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uAG-ks-mZt"/>
                         <viewControllerLayoutGuide type="bottom" id="h7z-bo-7wm"/>
@@ -145,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fGn-aK-ptp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2526" y="91"/>
+            <point key="canvasLocation" x="1226" y="1011"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VlW-fP-pz7">
@@ -166,4 +173,7 @@
             <point key="canvasLocation" x="-181.59999999999999" y="91.304347826086968"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="gJl-ZI-UQf"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -7,9 +7,24 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MainLoginViewController: UIViewController {
 
+    @IBOutlet weak var userPasswordTextField: UITextField!
+    @IBOutlet weak var userEmailTextField: UITextField!
+    
+    @IBAction func signInAction(_ sender: Any) {
+        Auth.auth().signIn(withEmail: userEmailTextField.text!, password: userPasswordTextField.text!) { (user, error) in
+            if let error = error{
+                print(error.localizedDescription)
+            }
+            else{
+                print("\(user!.email!) login succesful")
+
+            }
+        }
+    }
     @IBOutlet weak var signUpLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()

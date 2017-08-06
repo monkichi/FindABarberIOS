@@ -45,6 +45,7 @@ class SignUpViewController: UIViewController {
                             print("Message sent")
                         }
                         })
+                    self.performSegue(withIdentifier: "register", sender: self)
                     }
   
             }
