@@ -25,7 +25,9 @@ class MainLoginViewController: UIViewController {
             }
         }
     }
+    
     @IBOutlet weak var signUpLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

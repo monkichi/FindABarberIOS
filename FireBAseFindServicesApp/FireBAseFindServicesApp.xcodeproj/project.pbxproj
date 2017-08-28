@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831BC0971F396B02008CEE8B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BC0961F396B02008CEE8B /* UserViewController.swift */; };
+		831BC0991F396B8A008CEE8B /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BC0981F396B8A008CEE8B /* MenuTableViewController.swift */; };
+		832F8D5D1F38064600908848 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832F8D5C1F38064600908848 /* SWRevealViewController.m */; };
 		838727A01F366F17003D8963 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387279F1F366F17003D8963 /* SignUpViewController.swift */; };
 		838727A21F366FD5003D8963 /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838727A11F366FD5003D8963 /* MainLoginViewController.swift */; };
 		838727A41F36D694003D8963 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838727A31F36D694003D8963 /* FirebaseAuth.framework */; };
@@ -27,6 +30,11 @@
 
 /* Begin PBXFileReference section */
 		24BD2EF9B9EDD2FCEB56BCB1 /* Pods-FireBAseFindServicesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBAseFindServicesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBAseFindServicesApp/Pods-FireBAseFindServicesApp.release.xcconfig"; sourceTree = "<group>"; };
+		831BC0961F396B02008CEE8B /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		831BC0981F396B8A008CEE8B /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		832F8D5A1F38064400908848 /* FireBAseFindServicesApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireBAseFindServicesApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		832F8D5B1F38064600908848 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		832F8D5C1F38064600908848 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8387279F1F366F17003D8963 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		838727A11F366FD5003D8963 /* MainLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainLoginViewController.swift; path = ../MainLoginViewController.swift; sourceTree = "<group>"; };
 		838727A31F36D694003D8963 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Firebase/Auth/FirebaseAuth.framework; sourceTree = "<group>"; };
@@ -71,6 +79,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832F8D591F38063000908848 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				832F8D5B1F38064600908848 /* SWRevealViewController.h */,
+				832F8D5C1F38064600908848 /* SWRevealViewController.m */,
+				832F8D5A1F38064400908848 /* FireBAseFindServicesApp-Bridging-Header.h */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 		83F9A5F71F34037700EABFF6 = {
 			isa = PBXGroup;
 			children = (
@@ -92,9 +110,12 @@
 		83F9A6021F34037700EABFF6 /* FireBAseFindServicesApp */ = {
 			isa = PBXGroup;
 			children = (
+				832F8D591F38063000908848 /* Menu */,
 				838727A11F366FD5003D8963 /* MainLoginViewController.swift */,
+				831BC0961F396B02008CEE8B /* UserViewController.swift */,
 				83F9A6031F34037700EABFF6 /* AppDelegate.swift */,
 				8387279F1F366F17003D8963 /* SignUpViewController.swift */,
+				831BC0981F396B8A008CEE8B /* MenuTableViewController.swift */,
 				83F9A6071F34037700EABFF6 /* Main.storyboard */,
 				83F9A60A1F34037700EABFF6 /* Assets.xcassets */,
 				83F9A60F1F34037700EABFF6 /* Info.plist */,
@@ -166,6 +187,7 @@
 				TargetAttributes = {
 					83F9A5FF1F34037700EABFF6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				838727A01F366F17003D8963 /* SignUpViewController.swift in Sources */,
+				831BC0971F396B02008CEE8B /* UserViewController.swift in Sources */,
+				831BC0991F396B8A008CEE8B /* MenuTableViewController.swift in Sources */,
 				838727A21F366FD5003D8963 /* MainLoginViewController.swift in Sources */,
 				83F9A6041F34037700EABFF6 /* AppDelegate.swift in Sources */,
+				832F8D5D1F38064600908848 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +405,7 @@
 			baseConfigurationReference = E0E3A745590D8C26113AB73F /* Pods-FireBAseFindServicesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Firebase/Database",
@@ -390,6 +416,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = christianzamudio.FireBAseFindServicesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FireBAseFindServicesApp/FireBAseFindServicesApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -399,6 +427,7 @@
 			baseConfigurationReference = 24BD2EF9B9EDD2FCEB56BCB1 /* Pods-FireBAseFindServicesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Firebase/Database",
@@ -409,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = christianzamudio.FireBAseFindServicesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FireBAseFindServicesApp/FireBAseFindServicesApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
