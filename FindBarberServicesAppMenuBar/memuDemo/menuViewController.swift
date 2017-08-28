@@ -18,9 +18,11 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     var ManuNameArray:Array = [String]()
     var iconArray:Array = [UIImage]()
+    
     override func viewWillAppear(_ animated: Bool) {
         downLoadProfileImage()
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //Names of Menu Settings
@@ -65,7 +67,9 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         {
             print("My Account tapped")
             let mainstoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            
             let newViewcontroller = mainstoryboard.instantiateViewController(withIdentifier: "MyAccountViewController") as! MyAccountViewController
+
             let newFrontController = UINavigationController.init(rootViewController: newViewcontroller)
             
             self.revealViewController().pushFrontViewController(newFrontController, animated: true)

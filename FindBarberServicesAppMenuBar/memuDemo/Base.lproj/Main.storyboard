@@ -458,6 +458,15 @@
                                     <action selector="changeImage:" destination="6D6-Ol-zqG" eventType="touchUpInside" id="fVE-Vu-E4n"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZZn-9r-Hi6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="koe-FF-m9o">
+                                        <barButtonItem key="leftBarButtonItem" image="menu" id="Tab-Yd-Mjk"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -527,8 +536,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fuq-s9-Y3X"/>
+                    <navigationItem key="navigationItem" id="fuq-s9-Y3X">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="sC3-Am-hlw"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="btnMenuButton" destination="sC3-Am-hlw" id="zJc-7x-9Yg"/>
                         <outlet property="editLabel" destination="I30-gR-TfT" id="bda-ig-Qkc"/>
                         <outlet property="myAccountImageView" destination="LMS-zZ-R9x" id="z4K-Ya-r46"/>
                         <outlet property="myAccountSettingsTableView" destination="psp-SQ-CQw" id="dR5-EX-425"/>
@@ -537,7 +549,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcz-oR-u46" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2832.8000000000002" y="277.51124437781112"/>
+            <point key="canvasLocation" x="3772" y="277.51124437781112"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FzR-eQ-pXC">
@@ -732,13 +744,22 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9TF-as-CUy">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="rf0-Vv-pQb">
+                                        <barButtonItem key="leftBarButtonItem" image="menu" id="6MA-2F-4WN"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0CL-Nh-rmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5052" y="248.72563718140933"/>
+            <point key="canvasLocation" x="5991.1999999999998" y="248.72563718140933"/>
         </scene>
         <!--My User Profile View Controller-->
         <scene sceneID="lZI-ib-Fdw">
@@ -807,7 +828,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLQ-UE-nvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6200.8000000000002" y="241.52923538230885"/>
+            <point key="canvasLocation" x="7140" y="241.52923538230885"/>
         </scene>
         <!--CosmeticianProfile-->
         <scene sceneID="nhJ-m1-3GX">
@@ -954,6 +975,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Service"/>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ig2-bm-rtc">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="9Vk-hq-zsq">
+                                        <barButtonItem key="leftBarButtonItem" image="menu" id="7vy-Mb-lKb"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -978,6 +1008,15 @@
                                 <rect key="frame" x="0.0" y="87" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CYQ-Wh-zEs">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="FAQ-qg-phg">
+                                        <barButtonItem key="leftBarButtonItem" image="menu" id="73l-gO-HKZ"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1141,6 +1180,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WuP-8S-ftk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="957.60000000000002" y="278.41079460269867"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ffH-Nq-oRL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yTK-Qw-bYZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jt1-Gu-mGT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h1i-UN-B0x" kind="relationship" relationship="rootViewController" id="fgb-Tb-7Ua"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dXQ-8y-uZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2832.8000000000002" y="277.51124437781112"/>
         </scene>
     </scenes>
     <resources>

@@ -12,6 +12,7 @@ import FirebaseStorage
 
 class MyAccountViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet weak var btnMenuButton: UIBarButtonItem!
     
     @IBOutlet weak var myAccountSettingsTableView: UITableView!
     @IBOutlet weak var myAccountImageView: UIImageView!
@@ -22,7 +23,15 @@ class MyAccountViewController: UIViewController, UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //Add sibebar
+        // Do any additional setup after loading the view, typically from a nib.
+        if revealViewController() != nil {
+            //            revealViewController().rearViewRevealWidth = 62
+            btnMenuButton.target = revealViewController()
+            btnMenuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+        
+        }
         let tap = UITapGestureRecognizer(target: self, action: #selector(MainLoginViewController.tapFunction))
         editLabel.isUserInteractionEnabled = true
         editLabel.addGestureRecognizer(tap)
